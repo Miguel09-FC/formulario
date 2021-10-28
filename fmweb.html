@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale">
+        <link rel="stylesheet" type="text/css" href="fmweb.css">
+        <title>Formulario</title>
+    </head>
+    <body>
+        
+    <div class="contact_form">
+        <div class="formularios"></div>
+        <h1>Formulario de trabajo</h1>
+        <h3>Complete el formulario par rellenar su solicitud de trabajo</h3>
+        <h5>pequesencasa.com</h5>
+    
+    <form action="" method="">
+        
+        <br/>
+
+        ¿Qué día es hoy?<input type="date">  
+        
+        <br/><br>
+
+        <h3>Elija su sexo:</h3>
+
+        <input type='radio' name='sexo' value='sexomujer'> Mujer 
+        <input type='radio' name='sexo' value='sexohombre'> Hombre 
+
+    </br><br>
+        
+           <label class="colocar_nombre">Nombre:</label>
+           <input type="text"Required="obligatorio" placeholder="Escribir tu Nombre">
+       </p>
+       <p>
+           <label class="colocar e-mail">Email:</label>
+           <input type="email"Required="obligatorio" placeholder="Escribe tu dirección de e-mail">
+       </p>
+       <p>
+           <label class="Colocar mensaje">¿Por qué crees que mereces este trabajo?</label>
+           <textarea class="texto_mensaje" placeholder=" Introduce aquí tu mensaje..." ></textarea>
+       </p>
+        Indique su nivel de experiencia como niñero/a se calificará sobre estos niveles        <ul>
+            <ol>
+                Nunca he cuidado
+            </ol>
+            <ol>
+                Poca experiencia
+            </ol>
+            <ol>
+                Regular experiencia
+            </ol>
+            <ol>
+                Buena experiencia
+            </ol>
+            <ol>
+                Principalmente me dedico a este oficio 
+            </ol>
+        </ul>
+        <input type="range" name="rango"
+  min="1" max="5" list="lista-rango">
+        <datalist id="lista-rango">
+            <option value="1" label="Nunca">
+            <option value="2" label="Poca">
+            <option value="3" label="Regular">
+            <option value="4" label="Buena">
+            <option value="5" label="Se dedica"></option>
+
+        </datalist>
+        <h3>Ingrese aquí debajo su curriculum</h3>
+        <input type="file" name="archivo">
+        <br><br><br><br><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+   </div>
+    </body>
+</html>

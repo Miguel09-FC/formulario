@@ -1,0 +1,65 @@
+body {
+    height:100%;
+    background-image: url("https://www.publiink.com/wp-content/uploads/2016/05/fondo-formulario-fullpage.png");
+    font-family: Arial, Helvetica, sans-serif; 
+    
+    
+}
+.contact_form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 18px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: #10abff;
+    border: inset black;
+    transform: scale(.993, .94);
+    transition: transform .5s, opacity .25s; 
+    border-radius: 0px !important;
+    box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.808)!important;;
+    opacity: 1;
+	transform: scale(1);
+
+}
+
+
+textarea {
+    height: 150px;
+    width: 300px;
+    border-radius: 5px;
+    border-style: solid;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border: inset black;
+    background: linear-gradient(21deg, #10abff, #1beabd);
+    opacity: 1;
+	transform: scale(1); 
+    box-shadow: 3px 3px #10abff;
+
+}
+
+button{
+    width: 420px;
+    height: 45px;
+    border-radius: 10px;
+    border-style: solid;
+    border: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;  
+    background: rgb(249, 249, 250);
+    border: 3px inset rgb(0, 0, 0);
+    background: linear-gradient(21deg, #10abff, #1beabd);
+
+}
+input{
+    border: inset black;
+    transition: ease-out;
+    background-color: white;
+    background: linear-gradient(21deg, #10abff, #1beabd);
+    opacity: 1;
+	transform: scale(1);
+
+}
